@@ -1,0 +1,64 @@
+/* 
+    Document   : main
+    Created on : 27-sep-2013, 9:08:52
+    Author     : Sander
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    font-family: arial;
+    background-color: #F0F0F0;
+    color: #222;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+}
+
+#wrapper {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #F0F0F0;
+}
+
+#text {
+    text-align: center;
+}
+
+#inputbox {
+    width: 100%;
+    height: 30%;
+    width: 100%;
+    margin: 0 auto;
+    text-align:center;
+}
+
+#inputbox input {
+    width: 90%;
+    height: 100%;
+    text-align: center;
+    font-size: 32px;
+    color: #C0C0C0;
+}
+
+#buttonbox {
+    width: 100%;
+    height: 30%;
+    margin-left: 5%;
+    margin-top: 20px;
+}
+
+#buttonbox input {
+    width: 30%;
+    height: 100%;
+    font-size: 24px;
+}
